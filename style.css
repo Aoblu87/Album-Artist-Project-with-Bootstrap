@@ -1,0 +1,14 @@
+.navbar-brand img{
+    width: 12em;
+}
+
+.row .col-6:hover{
+    opacity: 0.5;
+    cursor: pointer;
+
+
+}
+
+.card:hover +.card-img-overlay{
+    display: block;
+}
