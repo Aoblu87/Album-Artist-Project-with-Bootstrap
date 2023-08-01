@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <div class="conteiner d-flex justify-content-center">
+        <div class="container d-flex justify-content-center">
 
             <nav class="navbar  navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="#home-page"><img src="assets/pngwing.com.png" class="img-fluid .w-100 "
@@ -27,23 +27,23 @@
                             <a class="nav-link" href="#home-page">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Story</a>
+                            <a class="nav-link" href="#story">Story</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#album-content">Album</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="budocan.html">Favorites</a>
+                            <a class="nav-link" href="#favorites">Favorites</a>
                         </li>
                     </ul>
                 </div>
             </nav>
         </div>
     </header>
-    <main>
+    <main class="container d-flex flex-column justify-content-center">
 
-        <div id="home-page" class="container">
-            <div class="row">
+        <div id="home-page" class="container ">
+            <div class="row py-5">
                 <div class="col-12">
 
                     <img src="assets/mijadzaki.jpg" class="img-fluid" alt="miyazaku">
@@ -52,33 +52,47 @@
 
         </div>
 
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="card mb-3" style="max-width: 540px;">
-                        <div class="row no-gutters">
-                          <div class="col-md-4">
-                            <img src="assets/joe_hisaishi.jpeg" alt="Joe Hisaishi">
-                          </div>
-                          <div class="col-md-8">
-                            <div class="card-body">
-                              <h5 class="card-title">Joe Hisaishi</h5>
-                              <p class="card-text">Mamoru Fujisawa (藤澤 守, Fujisawa Mamoru, born December 6, 1950), known professionally as Joe Hisaishi (久石 譲, Hisaishi Jō), is a Japanese composer, musical director, conductor and pianist, known for over 100 film scores and solo albums dating back to 1981. Hisaishi's music has been known to explore and incorporate different genres, including minimalist, experimental electronic, Western classical, and Japanese classical. He has also worked as a music engraver and arranger.
+        <div id="story" class="container ">
+            <div class="row py-5">
 
-He has been associated with director and animator Hayao Miyazaki since 1984, having written scores for all but one of Miyazaki's films. He is also recognized for his music for filmmaker 'Beat' Takeshi Kitano, including A Scene at the Sea (1991), Sonatine (1993), Kids Return (1996), Hana-bi (1997), Kikujiro (1999), Brother (2000), and Dolls (2002), and for the video game series Ni no Kuni. He was a student of anime composer Takeo Watanabe.</p>
-                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <div class="col-12">
+
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img class="img-fluid" src="assets/joe_hisaishi.jpeg" alt="Joe Hisaishi">
                             </div>
-                          </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Joe Hisaishi</h5>
+                                    <p class="card-text">Mamoru Fujisawa (藤澤 守, Fujisawa Mamoru, born December 6, 1950),
+                                        known professionally as Joe Hisaishi (久石 譲, Hisaishi Jō), is a Japanese
+                                        composer, musical director, conductor and pianist, known for over 100 film
+                                        scores and solo albums dating back to 1981. Hisaishi's music has been known to
+                                        explore and incorporate different genres, including minimalist, experimental
+                                        electronic, Western classical, and Japanese classical. He has also worked as a
+                                        music engraver and arranger.
+
+                                        He has been associated with director and animator Hayao Miyazaki since 1984,
+                                        having written scores for all but one of Miyazaki's films. He is also recognized
+                                        for his music for filmmaker 'Beat' Takeshi Kitano, including A Scene at the Sea
+                                        (1991), Sonatine (1993), Kids Return (1996), Hana-bi (1997), Kikujiro (1999),
+                                        Brother (2000), and Dolls (2002), and for the video game series Ni no Kuni. He
+                                        was a student of anime composer Takeo Watanabe.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
                         </div>
-                      </div>
+                    </div>
                 </div>
             </div>
+
         </div>
 
-        <div id="album-content" class="container m-5 ">
-            <div class="row">
+        <div id="album-content" class="container">
+            <div class="row py-5">
 
-                <div class="col-6 col-md-4">
+                <div class="col-6 col-md-3">
 
                     <div class="card bg-dark text-white">
                         <img src="assets/Nausicaa_Of_The_Valley_of_The_Wind.webp" class="card-img"
@@ -92,7 +106,7 @@ He has been associated with director and animator Hayao Miyazaki since 1984, hav
                     </div>
                 </div>
 
-                <div class="col-6 col-md-4">
+                <div class="col-6 col-md-3">
 
                     <div class="card bg-dark text-white">
                         <img src="assets/Tonari-no-Totoro_poster_goldposter_com_13.jpeg" class="card-img"
@@ -106,7 +120,7 @@ He has been associated with director and animator Hayao Miyazaki since 1984, hav
                     </div>
                 </div>
 
-                <div class="col-6 col-md-4 ">
+                <div class="col-6 col-md-3 ">
 
                     <div class="card bg-dark text-white">
                         <img src="assets/USA_full.webp" class="card-img" alt="spirited away">
@@ -119,7 +133,7 @@ He has been associated with director and animator Hayao Miyazaki since 1984, hav
                     </div>
                 </div>
 
-                <div class="col-6 col-md-4" >
+                <div class="col-6 col-md-3">
 
                     <div class="card bg-dark text-white">
                         <img src="assets/howl.jpeg" class="card-img" alt="howl's moving castel">
@@ -131,7 +145,7 @@ He has been associated with director and animator Hayao Miyazaki since 1984, hav
                         </div>
                     </div>
                 </div>
-                <div class="col-6 col-md-4" >
+                <div class="col-6 col-md-3">
 
                     <div class="card bg-dark text-white">
                         <img src="assets/princess-mononoke-poster-Ghibli-1382x2048.jpeg" class="card-img"
@@ -145,17 +159,150 @@ He has been associated with director and animator Hayao Miyazaki since 1984, hav
                     </div>
                 </div>
 
-                <div class="col-6 col-md-4" >
+                <div class="col-6 col-md-3">
 
                     <div class="card bg-dark text-white">
-                        <img src="assets/ponyo-film-comic-vol-3-9781421530796_hr.jpeg" class="card-img"
-                            alt="Ponyo">
+                        <img src="assets/ponyo-film-comic-vol-3-9781421530796_hr.jpeg" class="card-img" alt="Ponyo">
                         <div class="card-img-overlay">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
                                 additional content. This content is a little bit longer.</p>
                             <p class="card-text">Last updated 3 mins ago</p>
                         </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3">
+
+                    <div class="card bg-dark text-white">
+                        <img src="assets/The_Wind_Rises (1).webp" class="card-img" alt="The_Wind Rises">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text">Last updated 3 mins ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3">
+
+                    <div class="card bg-dark text-white">
+                        <img src="assets/Nausicaa_Of_The_Valley_of_The_Wind.webp" class="card-img"
+                            alt="Nausica della Valle del Vento">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text">Last updated 3 mins ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="favorites" class="container">
+            <div class="row-2 py-5">
+                <div class="col-">
+                    <div class="card">
+                        <img src="assets/BudokanBD.webp" class="card-img-top" alt="Concert in Budokan">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">An item</li>
+                            <li class="list-group-item">A second item</li>
+                            <li class="list-group-item">A third item</li>
+                        </ul>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="container">
+
+                <div class="row py-5">
+                    <div class="col-6">
+
+
+                        <table class="table">
+                            <caption>Studio Ghibli 25 Years Concert - Joe Hisaishi in Budokan</caption>
+                            <thead>
+                                <tr>
+                                   
+                                    <th scope="col">Nausicaa of the Valley of the Wind</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">0:00:42</th>
+                                    <td>Opening [Legend of the Wind]</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">0:03:07</th>
+                                    <td>Requiem</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">0:04:26</th>
+                                    <td>A Battle Between Mehve and Corvette</td>
+
+                                </tr>
+                                <tr>
+                                    <th scope="row">0:05:50 </th>
+                                    <td> Tooi hibi (Days Long Gone)</td>
+
+                                </tr>
+                                <tr>
+                                    <th scope="row">0:05:50 Tooi hibi (Days Long Gone)
+                                        0:07:10</th>
+                                    <td> Tori no Hito (Bird Person)</td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="col-6">
+
+
+                        <table class="table">
+
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th scope="col">Mononoke Hime
+                                    </th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">0:11:32</th>
+                                    <td>Ashitaka Sekki (Tale of Ashitaka)</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">0:13:51</th>
+                                    <td>Tatari gami (The Curse God)</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">0:16:14 </th>
+                                    <td>Mononoke Hime (Princess Mononoke)</td>
+
+                                </tr>
+                                <tr>
+                                    <th scope="row">1:47:29 </th>
+                                    <td>(Encore) Princess Mononoke: Ashitaka and San</td>
+
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
