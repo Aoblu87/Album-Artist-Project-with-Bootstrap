@@ -9,10 +9,22 @@
 .row .col-6:hover{
     opacity: 0.5;
     cursor: pointer;
+    display: block;
 
-
+}
+/* #text-album h5, p {
+    display: none;
+} */
+.card-img-overlay:hover {
+    display: block;
 }
 
 .card:hover +.card-img-overlay{
     display: block;
 }
+
+
+
+html {
+    scroll-behavior: smooth;
+  }
