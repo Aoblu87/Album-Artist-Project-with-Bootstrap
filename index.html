@@ -10,40 +10,45 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="bg-light" >
-    <header >
+<body class="bg-light">
+    <header>
         <div class="container d-flex justify-content-center">
 
+            <div class="row">
+                <div class="col">
 
-            <nav  class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+                    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
 
-                <a class="navbar-brand" href="#home-page"><img src="assets/pngwing.com.png" class="img-fluid .w-100 "
-                        alt="studio ghibli logo"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                        <a class="navbar-brand" href="#home-page"><img src="assets/pngwing.com.png"
+                                class="img-fluid .w-100 " alt="studio ghibli logo"></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
 
-                <div class="collapse navbar-collapse px-5" id="navbarNav">
-                    <ul class="navbar-nav px-5">
-                        <li class="nav-item active px-3">
-                            <a class="nav-link" href="#home-page">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item px-3">
-                            <a class="nav-link" href="#story">Story</a>
-                        </li>
-                        <li class="nav-item px-3">
-                            <a class="nav-link" href="#album-content">Album</a>
-                        </li>
-                        <li class="nav-item px-3">
-                            <a class="nav-link" href="#favorites">Favorites</a>
-                        </li>
-                    </ul>
+                        <div class="collapse navbar-collapse px-5" id="navbarNav">
+                            <ul class="navbar-nav px-5">
+                                <li class="nav-item active px-3">
+                                    <a class="nav-link" href="#home-page">Home <span
+                                            class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item px-3">
+                                    <a class="nav-link" href="#story">Story</a>
+                                </li>
+                                <li class="nav-item px-3">
+                                    <a class="nav-link" href="#album-content">Album</a>
+                                </li>
+                                <li class="nav-item px-3">
+                                    <a class="nav-link" href="#favorites">Favorites</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
                 </div>
-            </nav>
+            </div>
         </div>
     </header>
-    <main class="container d-flex flex-column justify-content-center" >
+    <main class="container d-flex flex-column justify-content-center">
 
         <div id="home-page" class="container ">
             <div class="row py-5">
@@ -62,7 +67,7 @@
 
                     <div class="card mb-3">
                         <div class="row no-gutters">
-                            <div class="col-md-4">
+                            <div class="col-md-4 pt-5">
                                 <img class="img-fluid" src="assets/joe_hisaishi.jpeg" alt="Joe Hisaishi">
                             </div>
                             <div class="col-md-8">
@@ -82,7 +87,6 @@
                                         (1991), Sonatine (1993), Kids Return (1996), Hana-bi (1997), Kikujiro (1999),
                                         Brother (2000), and Dolls (2002), and for the video game series Ni no Kuni. He
                                         was a student of anime composer Takeo Watanabe.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                                 </div>
                             </div>
                         </div>
@@ -98,11 +102,11 @@
                 <div class="col-6 col-md-4 col-lg-3">
 
                     <div class="card bg-dark text-white">
-                        <img src="assets/Il-castello-nel-cielo.jpg" class="card-img"
-                            alt="Laputa">
-                        <div id="text-album" class="card-img-overlay d-none d-flex flex-column flex-column justify-content-center">
+                        <img src="assets/Il-castello-nel-cielo.jpg" class="card-img" alt="Laputa">
+                        <div id="text-album"
+                            class="card-img-overlay d-flex flex-column flex-column justify-content-center  text-center">
                             <h5 class="card-title"><strong>Castel in the Sky</strong></h5>
-                            
+
                             <p class="card-text"><strong>1986</strong></p>
                         </div>
                     </div>
@@ -113,9 +117,10 @@
                     <div class="card bg-dark text-white">
                         <img src="assets/Tonari-no-Totoro_poster_goldposter_com_13.jpeg" class="card-img"
                             alt="Tonari no totoro">
-                        <div id="text-album" class="card-img-overlay  d-flex flex-column justify-content-center">
+                        <div id="text-album"
+                            class="card-img-overlay  d-flex flex-column justify-content-center text-center">
                             <h5 class="card-title"><strong>My Neighbor Totoro</strong></h5>
-                            
+
                             <p class="card-text"><strong>1988</strong></p>
                         </div>
                     </div>
@@ -125,9 +130,10 @@
 
                     <div class="card bg-dark text-white">
                         <img src="assets/USA_full.webp" class="card-img" alt="spirited away">
-                        <div id="text-album" class="card-img-overlay  d-flex flex-column justify-content-center">
+                        <div id="text-album"
+                            class="card-img-overlay  d-flex flex-column justify-content-center text-center">
                             <h5 class="card-title"><strong>Spirited Away</strong></h5>
-                            
+
                             <p class="card-text"><strong>2001</strong></p>
                         </div>
                     </div>
@@ -137,9 +143,10 @@
 
                     <div class="card bg-dark text-white">
                         <img src="assets/howl.jpeg" class="card-img" alt="howl's moving castel">
-                        <div id="text-album" class="card-img-overlay  d-flex flex-column justify-content-center">
+                        <div id="text-album"
+                            class="card-img-overlay  d-flex flex-column justify-content-center text-center">
                             <h5 class="card-title"><strong>Howl's Moving Castle</strong> </h5>
-                          
+
                             <p class="card-text"><strong>2004</strong></p>
                         </div>
                     </div>
@@ -149,9 +156,10 @@
                     <div class="card bg-dark text-white">
                         <img src="assets/princess-mononoke-poster-Ghibli-1382x2048.jpeg" class="card-img"
                             alt="Princess mononoke">
-                        <div id="text-album" class="card-img-overlay d-flex flex-column justify-content-center">
+                        <div id="text-album"
+                            class="card-img-overlay d-flex flex-column justify-content-center text-center">
                             <h5 class="card-title"><strong>Princess Mononoke</strong></h5>
-                            
+
                             <p class="card-text"><strong>1997</strong></p>
                         </div>
                     </div>
@@ -161,9 +169,10 @@
 
                     <div class="card bg-dark text-white">
                         <img src="assets/ponyo-film-comic-vol-3-9781421530796_hr.jpeg" class="card-img" alt="Ponyo">
-                        <div id="text-album" class="card-img-overlay d-flex flex-column justify-content-center">
+                        <div id="text-album"
+                            class="card-img-overlay d-flex flex-column justify-content-center text-center">
                             <h5 class="card-title"><strong>Ponyo</strong></h5>
-                            
+
                             <p class="card-text"><strong>2006</strong></p>
                         </div>
                     </div>
@@ -173,9 +182,10 @@
 
                     <div class="card bg-dark text-white">
                         <img src="assets/The_Wind_Rises (1).webp" class="card-img" alt="The_Wind Rises">
-                        <div id="text-album" class="card-img-overlay  d-flex flex-column justify-content-center">
-                            <h5 class="card-title"><strong>The Wind Rises	</strong></h5>
-                            
+                        <div id="text-album"
+                            class="card-img-overlay  d-flex flex-column justify-content-center text-center">
+                            <h5 class="card-title"><strong>The Wind Rises </strong></h5>
+
                             <p class="card-text"><strong>2013</strong></p>
                         </div>
                     </div>
@@ -186,9 +196,10 @@
                     <div class="card bg-dark text-white">
                         <img src="assets/Nausicaa_Of_The_Valley_of_The_Wind.webp" class="card-img"
                             alt="Nausica della Valle del Vento">
-                        <div id="text-album" class="card-img-overlayd-flex flex-column justify-content-center">
-                            <h5 class="card-title"><strong>Nausicaä of the Valley of the Wind	</strong></h5>
-                            
+                        <div id="text-album"
+                            class="card-img-overlayd-flex flex-column justify-content-center text-center">
+                            <h5 class="card-title"><strong>Nausicaä of the Valley of the Wind </strong></h5>
+
                             <p class="card-text"><strong>1984</strong></p>
                         </div>
                     </div>
@@ -196,7 +207,7 @@
             </div>
         </div>
 
-        <div id="favorites" class="container">
+        <div id="favorites" class="container ">
             <div class="row-2 py-5">
                 <div class="col-">
                     <div class="card">
@@ -244,123 +255,330 @@
             </div>
 
 
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 ">
 
-            <div class="row py-5">
-                <div class="col-12 col-md-6 py-2">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Nausicaa of the Valley of the Wind </th>
 
-                    <ul class="list-group list-group-flush">
-                        <h5 class="card-title py-1">
-                            From
-                            <br>
-                            <strong>
-                                Nausicaä of the Valley of the Wind
-                            </strong>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Opening [Legend of the Wind]</td>
+                                </tr>
+                                <tr>
+                                    <td>A Battle Between Mehve and Corvette</td>
+                                </tr>
+                                <tr>
+                                    <td>Tooi hibi (Days Long Gone)</td>
+                                </tr>
+                                <tr>
+                                    <td>Tori no Hito (Bird Person)</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
 
 
-                        </h5>
-                        <li class="list-group-item"> Opening (Legend of the Wind)
-                        </li>
-                        <li class="list-group-item">Requiem ~ A Battle Between Mehve and Corvette
-                        </li>
-                        <li class="list-group-item">Tooi Hibi (Days Long Gone)
-                        </li>
-                        <li class="list-group-item">Tori no Hito (Bird People)
-                        </li>
-                    </ul>
+
+                    <div class="col-12 col-md-6 ">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Mononoke Hime</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Ashitaka Sekki (Tale of Ashitaka)</td>
+                                </tr>
+                                <tr>
+
+                                    <td>Tatari gami (The Curse God)</td>
+                                </tr>
+                                <tr>
+                                    <td>Mononoke Hime (Princess Mononoke)</td>
+
+                                </tr>
+                                <tr>
+
+                                    <td>(Encore) Princess Mononoke: Ashitaka and San</td>
+                                </tr>
+
+
+                            </tbody>
+                        </table>
+
+                    </div>
+
+                    <div class="col-12 col-md-6 ">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Kiki’s Delivery Service</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Umi no Mieru Machi (A Town with an Ocean View)</td>
+                                </tr>
+                                <tr>
+
+                                    <td>Shoushin no Kiki (Heartbroken Kiki)</td>
+                                </tr>
+                                <tr>
+                                    <td>Kaasan no Houki (Mom’s Broom)</td>
+
+                                </tr>
+
+
+
+                            </tbody>
+                        </table>
+
+                    </div>
+
+                    <div class="col-12 col-md-6 ">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Ponyo on the Cliff by the Sea</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Shinkai Bokujyou (Deep Sea Ranch)</td>
+                                </tr>
+                                <tr>
+
+                                    <td> Umi no Okasan (Mother of the Sea)</td>
+                                </tr>
+                                <tr>
+                                    <td>Nami no Sakana no Ponyo (Ponyo of the Fish of the Wave)</td>
+
+                                </tr>
+                                <tr>
+                                    <td>Fujimoto no Tema (Fujimoto’s Theme)</td>
+
+                                </tr>
+                                <tr>
+                                    <td> Himawari no Ie no Rondo (Rondo of the Sunflower House)</td>
+
+                                </tr>
+                                <tr>
+                                    <td> Haha no Ai (Mother’s Love)</td>
+
+                                </tr>
+                                <tr>
+                                    <td> Imouto-tachi no Katsuyaku (Little Sisters' Activities)
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <td> Haha to Umi no Sanka (Song of Praise for Mother and the Sea)</td>
+
+                                </tr>
+                                <tr>
+                                    <td> Gake no ue no Ponyo (Ponyo on the Cliff by the Sea)</td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+
+                    <div class="col-12 col-md-6 ">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Laputa, Castle in the Sky</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Hato to Shounen (Pigeons and a Boy)</td>
+                                </tr>
+                                <tr>
+
+                                    <td>Kimi o Nosete (Carrying You)</td>
+                                </tr>
+                                <tr>
+                                    <td>Taiju (The Huge Tree)</td>
+
+                                </tr>
+
+
+
+                            </tbody>
+                        </table>
+
+                    </div>
+                    <div class="col-12 col-md-6 ">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Porco Rosso</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Kaerazaru Hibi (The Bygone Days)</td>
+                                </tr>
+                                <tr>
+
+                                    <td>(Encore) Porco Rosso: Madness</td>
+                                </tr>
+
+
+
+
+                            </tbody>
+                        </table>
+
+                    </div>
+                    <div class="col-12 col-md-6 ">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Howl’s Moving Castle</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td> Symphonic Variation "Merry-go-round"
+                                    </td>
+                                </tr>
+                                <tr>
+
+                                    <td>Cave of Mind</td>
+                                </tr>
+                                <tr>
+
+                                    <td>Jinsei no Merry-go-round (Merry-Go-Round of Life)</td>
+                                </tr>
+
+
+
+
+
+
+                            </tbody>
+                        </table>
+
+                    </div>
+
+                    <div class="col-12 col-md-6 ">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Spirited Away</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td> Inochi no Namae (The Name of Life)
+                                    </td>
+                                </tr>
+                                <tr>
+
+                                    <td>Futatabi (Reprise)</td>
+                                </tr>
+
+
+                            </tbody>
+                        </table>
+
+                    </div>
+
+                    <div class="col-12 col-md-6 ">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Tonari no Totoro</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td> Kaze no toori michi (The Path of the Wind)
+                                    </td>
+                                </tr>
+                                <tr>
+
+                                    <td>Sanpo (Stroll)</td>
+                                </tr>
+                                <tr>
+
+                                    <td>Miyazaki-san and Lasseter-san sing Sanpo</td>
+                                </tr>
+
+                                <td>Tonari no Totoro (My Neighbour Totoro)</td>
+                                </tr>
+
+
+
+
+
+
+                            </tbody>
+                        </table>
+
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </tbody>
+                    </table>
 
                 </div>
-
-                <div class="col-12 col-md-6 py-2">
-                    <ul class="list-group list-group-flush">
-                        <h5 class="card-title">
-                            From <br>
-                            <strong>
-                                Princess Mononoke
-                            </strong>
-                        </h5>
-
-
-
-
-                        <li class="list-group-item"> Ashitaka no Sekki (The Legend of Ashitaka)
-
-                        </li>
-                        <li class="list-group-item"> Tatarigami (The Cursed God)
-
-                        </li>
-                        <li class="list-group-item"> Mononoke Hime (Princess Mononoke), Vocal: Masako Hayashi
-
-                        </li>
-
-                    </ul>
-
-
-                </div>
-
-                <div class="col-12 col-md-6 py-2">
-                    <ul class="list-group list-group-flush">
-                        <h5 class="card-title py-1">
-                            From <br>
-                            <strong>
-
-                                Kiki's Delivery Service
-                            </strong>
-                        </h5>
-
-                        <li class="list-group-item"> Umi no Mieru Machi (A Town with an Ocean View)
-                        </li>
-                        <li class="list-group-item"> TShoushin no Kiki (Heartbroken Kiki)
-                        </li>
-                        <li class="list-group-item"> Kaa-san no Houki (Mother's Broom)
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="col-12 col-md-6 py-2">
-                    <ul class="list-group list-group-flush">
-                        <h5 class="card-title">
-                            From <br>
-                            <strong>
-
-                                Ponyo </strong>
-                        </h5>
-
-                        <li class="list-group-item"> Deep Sea Ranch ~ Mother of the Sea, Vocal: Masako Hayashi
-
-                        </li>
-                        <li class="list-group-item"> Ponyo of the Fish of the Wave ~ Fujimoto's Theme, Vocal:
-                            Fujioka Fujimaki
-
-                        </li>
-                        <li class="list-group-item"> Rondo of the House of Sunflowers, Vocal: Mai
-
-                        </li>
-                        <li class="list-group-item"> Mother's Love ~ Little Sisters ~ Song of Praise for Mother and
-                            the Sea
-
-
-                        </li>
-                        <li class="list-group-item"> Gake no Ue no Ponyo (Ponyo on the Cliff by the Sea), Vocals:
-                            Fujioka Fujimaki and Nozomi Ohashi
-
-
-                        </li>
-                    </ul>
-                </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
             </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
     </main>
 

@@ -2,29 +2,40 @@
     background-color:rgb(227, 252, 249);
 } */
 
-.navbar-brand img{
+body {
+    padding-top: 100px;
+}
+
+
+.navbar-brand img {
     width: 12em;
 }
 
-.row .col-6:hover{
-    opacity: 0.5;
+.row .col-6 .card:hover {
+    opacity: 0.2;
     cursor: pointer;
-    display: block;
 
 }
-/* #text-album h5, p {
-    display: none;
-} */
-.card-img-overlay:hover {
-    display: block;
+
+#text-album {
+    opacity: 0;
+    color: black;
 }
 
-.card:hover +.card-img-overlay{
-    display: block;
+#text-album:hover {
+    opacity: 1;
+    background: rgba(44, 35, 196, 1);
+    filter: brightness(350%);
+
+
 }
+
+
 
 
 
 html {
     scroll-behavior: smooth;
-  }
+    scroll-padding-top: 100px;
+
+}
