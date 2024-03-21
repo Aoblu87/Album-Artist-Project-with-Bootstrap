@@ -9,6 +9,8 @@
 - **Responsive Design**: Adapt your album layout to fit screens of all sizes, from desktop giants to mobile minis. 📏📲
 - **Album Card Component**: Craft a component that hits all the right notes with detailed album info. 🎵🔍
 
-Ensure your design stays harmonious with consistent styling throughout. 🎨✨
+![file1](https://github.com/Aoblu87/My-favorite-Artist-with-Bootstrap/assets/126720391/4f93143c-f61a-40ae-b45c-2d07f2b049cf)
 
-[127.0.0.1_5500_index.html.jpg.zip](https://github.com/Aoblu87/My-favorite-Artist-with-Bootstrap/files/14706670/127.0.0.1_5500_index.html.jpg.zip)
+![file2](https://github.com/Aoblu87/My-favorite-Artist-with-Bootstrap/assets/126720391/fae453a7-1640-42d5-adc0-dce93c6f89f1)
+
+![file3](https://github.com/Aoblu87/My-favorite-Artist-with-Bootstrap/assets/126720391/717acbf1-213a-4d06-b830-099ababb660e)
