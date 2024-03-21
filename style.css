@@ -3,39 +3,45 @@
 } */
 
 body {
-    padding-top: 100px;
+  padding-top: 100px;
+}
+@media screen and (min-width: 768px) {
+  .navbar {
+    margin-inline: 4rem;
+  }
 }
 
-
 .navbar-brand img {
-    width: 12em;
+  width: 12em;
 }
 
 .row .col-6 .card:hover {
-    opacity: 0.2;
-    cursor: pointer;
-
+  opacity: 0.2;
+  cursor: pointer;
 }
 
 #text-album {
-    opacity: 0;
-    color: black;
+  opacity: 0;
+  color: black;
 }
 
 #text-album:hover {
-    opacity: 1;
-    background: rgba(44, 35, 196, 1);
-    filter: brightness(350%);
-
-
+  opacity: 1;
+  background: rgba(44, 35, 196, 1);
+  filter: brightness(350%);
 }
 
-
-
-
+.card img {
+  aspect-ratio: 1/2;
+}
+#miyazaki {
+  aspect-ratio: 1;
+}
+#concert {
+  aspect-ratio: 1;
+}
 
 html {
-    scroll-behavior: smooth;
-    scroll-padding-top: 100px;
-
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
 }
