@@ -1,6 +1,6 @@
 # 🎨 Web Design with Bootstrap: Exercise 3 at [Epicode](https://epicode.com/) 🚀
 
-## Album Artistry Project 🎼👨‍🎨
+## Album Artist Project 🎼👨‍🎨
 
 ### Exercise Overview:
 
